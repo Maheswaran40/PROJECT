@@ -17,7 +17,7 @@ const MyContextProvider = ( { children } ) => {
         setFilteredData(all_products.filter(a => a.type.toLowerCase().includes(input.toLowerCase())))
     }
 
-    const url = 'https://project-backend-2hqu.onrender.com/'
+    const url = 'https://project-backend-2hqu.onrender.com'
 
     const [ productData, setProductData ] = useState([])
 
