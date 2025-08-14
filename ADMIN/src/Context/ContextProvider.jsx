@@ -5,7 +5,7 @@ export const myContext = createContext()
 
 const ContextProvider = ({children}) => {
 
-    const url = 'http://localhost:5000'
+    const url = 'https://project-backend-2hqu.onrender.com'
 
     const [ img, setImage ] = useState('')
     const [ previewImg, setPreviewImage ] = useState('')
